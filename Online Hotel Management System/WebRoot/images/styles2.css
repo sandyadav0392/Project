@@ -1,0 +1,30 @@
+ /*	AnswerNet Network Site Styles
+	Controls layout and design of entire site.
+	Version: 1.0 20050805
+
+	Note to webdevs: #<classname> affects
+*/
+body { margin: 0px; padding: 0px; background-color: #FFF;}
+img { border-width: 0; }
+
+/* Page specific elements */
+#navbar { margin: 0; padding: 0; width: 770px;}
+#navbarsub { background-image: url(images/navbar-sub/bg.gif) ; overflow: hidden; }
+#content { font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; font-style: normal; line-height: 1.4em;  width: 602px; border-left: 1pt solid gray; padding-top: 16px; padding-left: 16px; border-top-width: 0; list-style-image: url(images/bullet.gif); }
+#content2 { font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; font-style: normal; line-height: 1.4em; border-top-width: 0; list-style-image: url(images/bullet.gif); }
+
+.contentHeading { color: #006; font-size: 14px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-style: normal; line-height: normal; background-color: #ccc; margin-bottom: 19px; padding: 1px 3px 2px; }
+.contentTitle { padding-left: 5px; margin-top: 20px; font: small-caps bold 16px Verdana, Arial, Helvetica, sans-serif; color: #000080; display: block}
+#footerBorder { line-height: 12px; background-image: url(images/bottomBar.jpg); background-repeat: repeat; background-attachment: scroll; background-position: 0 0; }
+#footer { color: white; font: bold 12px Verdana, Arial, Helvetica, sans-serif; background-color: #191970; margin: 0; padding: 7px; }
+#copyright { font: bold small-caps 11px Verdana, Arial, Helvetica, sans-serif; color: #FC0; }
+#footer a { color: #CCC;  }
+#footer a:hover { color: #FFF; font-weight: bold; }
+#navigation {  text-align: center; }
+.smallpicture {
+	border: 1px solid #000000;
+}
+.bottomNav {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
